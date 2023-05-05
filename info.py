@@ -67,5 +67,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 #Verify Features
 VERIFY = bool(environ.get('VERIFY', True))
 HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/VisionBackup/331")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', '75e830d6e6bb44e5a2d13c1754ba7487f03a3336')
+
+SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'mdisklink.link') #Put Only Shortner Site domain don't put like this https://tnlink.in/
+
+SHORTNER_API =  environ.get('SHORTNER_API', '75e830d6e6bb44e5a2d13c1754ba7487f03a3336')
