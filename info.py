@@ -66,6 +66,11 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 #Verify Features
 VERIFY = bool(environ.get('VERIFY', True))
+
+AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 60))
+
+FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
+
 HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/VisionBackup/331")
 
 SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'mdisklink.link') #Put Only Shortner Site domain don't put like this https://tnlink.in/
