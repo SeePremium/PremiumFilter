@@ -20,6 +20,6 @@ def short_url(longurl):
         return s.bitly.short(longurl)
     elif "ouo.io" in SHORTNER_SITE:
         disable_warnings()
-        return requests.get(f'http://ouo.io/api/{SHORTNER_API}?s={longurl}', verify=True).text
+        return requests.get(f'http://ouo.io/api/{SHORTNER_API}?s={longurl}', verify=false).text
     else:
         return requests.get(f'https://{SHORTNER_SITE}/api?api={SHORTNER_API}&url={longurl}&format=text').text
