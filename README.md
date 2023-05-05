@@ -74,12 +74,12 @@ Cᴀɴ'ᴛ ᴜɴᴅᴇʀsᴛᴀɴᴅ ﹖ Sᴇᴇ SᴄʀᴇᴇɴSʜᴏᴛ 👇
 ## Dᴇᴘᴏʟʏ
 Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 
-<a href=https://github.com/TamilanBotsZ/PremiumFilter/blob/Tamilans-Working-Branch/Instruction.pyyy>Follow This Instruction Before Depolying Heroku / Koyeb</a>
+<a href=https://github.com/nikhilvishwa7/PremiumFilter/blob/VisionBackup/Instruction.pyyy>Follow This Instruction Before Depolying Heroku / Koyeb</a>
 
 <details><summary>Dᴇᴘᴏʟʏ Tᴏ Hᴇʀᴏᴋᴜ {ᴘᴀɪᴅ}</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/TamilanBotsZ/PremiumFilter">
+<a href="https://heroku.com/deploy?template=https://github.com/nikhilvishwa7/PremiumFilter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
   </a>
   </p>
@@ -98,7 +98,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <details><summary>Dᴇᴘᴏʟʏ Tᴏ Kᴏʏᴇʙ {ᴩᴀɪᴅ}</summary>
 <p>
 <br>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/TamilanBotsZ/PremiumFilter&branch=Tamilans-Working-Branch">
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/nikhilvishwa7/PremiumFilter&branch=Tamilans-Working-Branch">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="deploy-to-koyeb">
   </a
   </p>
@@ -107,7 +107,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <details><summary>Dᴇᴘᴏʟʏ Tᴏ Oᴋᴛᴇᴛᴏ {ᴘᴀɪᴅ}</summary>
 <p>
 <br>
-<a href="https://cloud.okteto.com/deploy?repository=https://github.com/TamilanBotsZ/PremiumFilter">
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/nikhilvishwa7/PremiumFilter">
   <img src="https://okteto.com/develop-okteto.svg" alt="deploy-to-okteto">
   </a>
   </p>
@@ -124,7 +124,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <p>
 You must have the latest version of <a href="golang.org">go</a> installed first
 <pre>
-git clone https://github.com/TamilanBotsZ/PremiumFilter
+git clone https://github.com/nikhilvishwa7/PremiumFilter
 cd AwesomeFilterPro
 go build .
 ./PremiumFilter
@@ -152,7 +152,7 @@ link - 🖇️ ʟɪɴᴋ ᴛᴏ ᴘᴏsᴛ (ᴀᴅᴍɪɴ ᴏɴʟʏ)
 ```
 
 ## Cʀᴇᴅɪᴛs
-Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ *[![@Vis10n7-Mᴇ](https://img.shields.io/static/v1?label=TamilanBotsZ&message=devs&color=critical)](https://telegram.dog/Tamilan_BotsZ)
+Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ *[![@Vis10n7-Mᴇ](https://img.shields.io/static/v1?label=VisionBAckup&message=devs&color=critical)](https://telegram.dog/VisionBackup)
 
 ## Tʜᴀɴᴋs Tᴏ 
  <b>- Tʜᴀɴᴋs Tᴏ Mᴇ 🤩
