@@ -253,7 +253,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+        return await query.answer(' ˆ°• Filmy_Fundas •°ˆ ')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+        return await query.answer(' ˆ°• Filmy_Fundas •°ˆ ')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Sᴏᴍᴇ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+        return await query.answer(' ˆ°• Filmy_Fundas •°ˆ ')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -315,7 +315,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Sᴏᴍᴇ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+        return await query.answer(' ˆ°• Filmy_Fundas •°ˆ ')
     elif query.data == "backcb":
         await query.answer()
 
@@ -326,7 +326,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+            return await query.answer(' ˆ°• Filmy_Fundas •°ˆ ')
         buttons = []
         for groupid in groupids:
             try:
@@ -440,8 +440,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/VisionBackup'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+tG_HsZA8waBmYjE1')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/Filmy_Fundas'),
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/Filmy_Fundas')
             ],[
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
             ],[
@@ -457,7 +457,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/VisionBackup'),
+            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Filmy_Fundas'),
             InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
@@ -495,7 +495,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='https://Github.com/nikhilvishwa7/PremiumFilter')
+            InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='@Filmy_Fundas')
         ],[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]       
@@ -578,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://Github.com/nikhilvishwa7/PremiumFilter')
+            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='@Filmy_Fundas')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://Github.com/nikhilvishwa7/PremiumFilter')
+            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='@Filmy_Fundas')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -603,7 +603,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/VisionBackup/331')
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Filmy_Fundas')
         ], [
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
@@ -617,9 +617,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/Vis10n7')
+            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/Filmy_Fundas')
         ], [     
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/Vis10n7')
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/Filmy_Fundas')
         ], [  
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ], [
