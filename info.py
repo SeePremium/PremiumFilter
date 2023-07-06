@@ -69,8 +69,8 @@ AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 100))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
 
-SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'Ziplinker.net') 
+SHORTNER_SITE =  environ.get('SHORTNER_SITE', '') 
 
-SHORTNER_API =  environ.get('SHORTNER_API', 'b2488d7cb39a3bda4f66123a3f67cb773af054fb')
+SHORTNER_API =  environ.get('SHORTNER_API', '')
 
 AUTO_DELETE =  environ.get('AUTO_DELETE', 'True')
