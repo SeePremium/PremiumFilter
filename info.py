@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '29362464'))
+API_HASH = environ.get('API_HASH', '31973315b0872a0478886de31a1e4848')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5882212872:AAESysvLXNtimLgG8MLzqLddV9lM1Toe0tY')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -31,7 +31,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rishikesh001:Rishikesh001@cluster0.lqncnak.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rajbot:pass@cluster0.kgciulo.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "sex")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -65,7 +65,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/VisionBackup/331')
 
-AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 100))
+AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 500))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
 
