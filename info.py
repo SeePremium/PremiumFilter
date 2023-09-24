@@ -71,8 +71,8 @@ AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 500))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
 
-SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'linkpays.in') 
+SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'jnglink.in') 
 
-SHORTNER_API =  environ.get('SHORTNER_API', 'b4798b518006eaf364d85f383e439cf800f917b4')
+SHORTNER_API =  environ.get('SHORTNER_API', '93afdd16e98ac2ba9461051503e759f4da683333')
 
 AUTO_DELETE =  environ.get('AUTO_DELETE', 'True')
